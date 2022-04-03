@@ -1,0 +1,5 @@
+name: MobEditor
+version: '${project.version}'
+main: me.thehandsomeyoni.mobeditor.MobEditor
+api-version: 1.18
+description: Easily edit mobs

@@ -8,13 +8,42 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class EditMobGUI {
+import static me.thehandsomeyoni.mobeditor.utils.Utils.color;
+import static me.thehandsomeyoni.mobeditor.utils.Utils.getConfig;
 
+public class MobEditorGUI {
+    private Inventory inv;
+
+    public MobEditorGUI(){
+        this.inv = Bukkit.createInventory(null, 54, color(getConfig().getString("inventory-title")));
+        for(String key : getConfig().getConfigurationSection("mob-edit-section").getKeys(false)){
+            addItem(new ItemStack(Material.getMaterial(key + ".material")), this.inv.firstEmpty(), key + ".name");
+        }
+    }
+
+    public Inventory getInventory(){
+        return this.inv;
+    }
+
+    public void addItem(ItemStack item, int slot){
+        this.inv.setItem(slot, item);
+    }
+
+    public void addItem(ItemStack item, int slot, String name){
+        ItemMeta meta = item.getItemMeta();
+        meta.setDisplayName(name);
+        item.setItemMeta(meta);
+        this.inv.setItem(slot, item);
+    }
+
+
+    /*
     public static Inventory GUI(Player p){
 
         final Inventory inv = Bukkit.createInventory((InventoryHolder)null, 3*9, Utils.color("&aEdit Mob"));
@@ -44,12 +73,6 @@ public class EditMobGUI {
         slot = 26;
         inv.setItem(slot, item);
 
-        lore = new ArrayList<>();
-        lore.add(Utils.color("&fClick on any gameRule to change his value!"));
-        item = Utils.createItem(Utils.color("&aInfo") , Material.REDSTONE_TORCH  , lore, 1);
-        item.getItemMeta().setUnbreakable(true);
-        slot = 21;
-        inv.setItem(slot, item);
 
         for (int i = 0 ; i < inv.getSize() ; i++) {
             if (inv.getItem(i) == null || inv.getItem(i).getType().equals(Material.AIR)) {
@@ -78,4 +101,6 @@ public class EditMobGUI {
 
         }
     }
+
+     */
 }

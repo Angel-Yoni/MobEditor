@@ -8,7 +8,8 @@ public final class MobEditor extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
 
 
         // Register events

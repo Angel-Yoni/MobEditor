@@ -6,60 +6,60 @@ inventory-title: '&a&lMob Editor'
 mob-edit-section:
   equipment-helmet:
     name: '&aHelmet'
-    material: 'DIAMOND_HELMET'
+    material: DIAMOND_HELMET
     type: 'item'
 
   equipment-chestplate:
     name: '&aChestplate'
-    material: 'DIAMOND_CHESTPLATE'
+    material: DIAMOND_CHESTPLATE
     type: 'item'
 
   equipment-leggings:
     name: '&aLeggings'
-    material: 'DIAMOND_LEGGINGS'
+    material: DIAMOND_LEGGINGS
     type: 'item'
 
   equipment-boots:
     name: '&aBoots'
-    material: 'DIAMOND_BOOTS'
+    material: DIAMOND_BOOTS
     type: 'item'
 
   displayed-name:
     name: '&aDisplayed name'
-    material: 'PAPER'
+    material: PAPER
     type: 'string'
 
   invincibility:
     name: '&aInvincible'
-    material: 'TOTEM_OF_UNDYING'
+    material: TOTEM_OF_UNDYING
     type: 'boolean'
 
   target-player:
     name: '&aTarget Player'
-    material: 'COMPASS'
+    material: COMPASS
     type: 'player'
 
   AI:
     name: '&aAI'
-    material: 'LEGACY_EYE_OF_ENDER'
+    material: LEGACY_EYE_OF_ENDER
     type: 'boolean'
 
   attribute-generic-armor:
     name: '&aProtection'
-    material: 'IRON_CHESTPLATE'
+    material: IRON_CHESTPLATE
     type: 'GENERIC_ARMOR'
 
   attribute-generic-attack-damage:
     name: '&aDamage'
-    material: 'REDSTONE'
+    material: REDSTONE
     type: 'GENERIC_ATTACK_DAMAGE'
 
   attribute-generic-movement-speed:
     name: '&aSpeed'
-    material: 'FEATHER'
+    material: FEATHER
     type: 'GENERIC_MOVEMENT_SPEED'
 
   attribute-generic-max-health:
     name: '&aHealth'
-    material: 'ENCHANTED_GOLDEN_APPLE'
+    material: ENCHANTED_GOLDEN_APPLE
     type: 'GENERIC_MAX_HEALTH'

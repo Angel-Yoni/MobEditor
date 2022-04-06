@@ -1,30 +1,27 @@
 package me.thehandsomeyoni.mobeditor.guis;
 
-import me.clip.placeholderapi.PlaceholderAPI;
-import me.thehandsomeyoni.mobeditor.MobEditor;
-import me.thehandsomeyoni.mobeditor.utils.Utils;
 import org.bukkit.*;
-import org.bukkit.entity.Player;
+import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.Locale;
 
-import static me.thehandsomeyoni.mobeditor.utils.Utils.color;
-import static me.thehandsomeyoni.mobeditor.utils.Utils.getConfig;
+import static me.thehandsomeyoni.mobeditor.utils.Utils.*;
 
 public class MobEditorGUI {
     private Inventory inv;
 
     public MobEditorGUI(){
         this.inv = Bukkit.createInventory(null, 54, color(getConfig().getString("inventory-title")));
-        for(String key : getConfig().getConfigurationSection("mob-edit-section").getKeys(false)){
-            addItem(new ItemStack(Material.getMaterial(key + ".material")), this.inv.firstEmpty(), key + ".name");
+        ConfigurationSection section = getPlugin().getConfig().getConfigurationSection("mob-edit-section");
+        for(String key : section.getKeys(false)){
+            addItem(new ItemStack(Material.getMaterial(section.get(key + ".material").toString())),
+                    getInventory().firstEmpty(),
+                    color(section.getString(key + ".name")));
         }
+
     }
 
     public Inventory getInventory(){

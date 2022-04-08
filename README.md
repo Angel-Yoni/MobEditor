@@ -1,6 +1,6 @@
 # MobEditor
 - This plugin was made by TheHandsomeYoni with the help of \_ItsAngel\_
-- MobEditor is a Spigot plugin, which currently supports only 1.18. 
+- MobEditor is a GUI-based Spigot plugin, which currently supports only 1.18. 
 - Using this plugin, you can edit mob's features and properties.
 - MobEditor is fully configurable, easy and free to use.
 
@@ -9,9 +9,11 @@
 
 
 # Features
+- Everything is being edited using GUI
+- Custom items support 
+
 - Edit mob's nickname - 🔤
 - Edit mob's armor and main item - 👕 🗡️
-- Custom items support 
 - Enable mob's invincibity (Immortallity) - ☢️
 - Target a player (In progress) - 🔜
 - AI (Controls if the mob will move) - 🤖

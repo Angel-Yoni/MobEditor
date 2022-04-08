@@ -83,7 +83,7 @@ _Angel_#8769
 thehandsomeyoni@gmail.com
 
 ## SpigotMC
-toprixkiller
+[toprixkiller](https://www.spigotmc.org/members/toprixkiller.859687/)
 
 ## Twitter
 [@TheHandsomeYoni](https://twitter.com/TheHandsomeYoni)

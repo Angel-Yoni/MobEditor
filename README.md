@@ -97,8 +97,8 @@ mob-edit-section:
 
 # Fields
 
-###**name** - The name that will be displayed when oppening the inventory.
+### **name** - The name that will be displayed when oppening the inventory.
 
-###**Material** - The material that will be used to display the item.
+### **Material** - The material that will be used to display the item.
 
-###**type** - Currently the 'type' field is for test purposes.
+### **type** - Currently the 'type' field is for test purposes.

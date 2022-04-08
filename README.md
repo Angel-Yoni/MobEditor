@@ -58,13 +58,14 @@ These are the field used in the config.yml.
 Please make sure to not mess around with the field type.
 
 #### **Name**
-- The name that will be displayed when oppening the inventory.
+ The name that will be displayed when oppening the inventory.
 
 #### **Material** 
-- The material that will be used to display the item.
+ The material that will be used to display the item.
+ When specifying a material, you'll have to specify it with capital letters (will be fixed in the next versions).
 
 #### **Type** 
-- Currently the 'type' field is for test purposes.
+ Currently the 'type' field is for test purposes.
 
 
 # To - Do

@@ -1,7 +1,9 @@
 # Made by TheHandsomeYoni and _ItsAngel_
 
 
-inventory-title: '&a&lMob Editor'
+main-inventory-title: '&a&lMob Editor'
+insert-item-inventory-title: '&a&lInsert Item'
+
 
 mob-edit-section:
   equipment-helmet:
@@ -24,8 +26,8 @@ mob-edit-section:
     material: DIAMOND_BOOTS
     type: 'item'
 
-  displayed-name:
-    name: '&aDisplayed name'
+  display-name:
+    name: '&aName'
     material: PAPER
     type: 'string'
 
@@ -33,33 +35,44 @@ mob-edit-section:
     name: '&aInvincible'
     material: TOTEM_OF_UNDYING
     type: 'boolean'
+    method: 'setInvulnerable'
 
   target-player:
     name: '&aTarget Player'
     material: COMPASS
     type: 'player'
+    method: 'setInvulnerable'
 
   AI:
     name: '&aAI'
     material: LEGACY_EYE_OF_ENDER
     type: 'boolean'
+    method: 'hasAI'
 
   attribute-generic-armor:
     name: '&aProtection'
     material: IRON_CHESTPLATE
     type: 'GENERIC_ARMOR'
+    method: 'getAttribute'
+    method-2: 'setBaseValue'
 
   attribute-generic-attack-damage:
     name: '&aDamage'
     material: REDSTONE
     type: 'GENERIC_ATTACK_DAMAGE'
+    method: 'getAttribute'
+    method-2: 'setBaseValue'
 
   attribute-generic-movement-speed:
     name: '&aSpeed'
     material: FEATHER
     type: 'GENERIC_MOVEMENT_SPEED'
+    method: 'getAttribute'
+    method-2: 'setBaseValue'
 
   attribute-generic-max-health:
     name: '&aHealth'
     material: ENCHANTED_GOLDEN_APPLE
     type: 'GENERIC_MAX_HEALTH'
+    method: 'getAttribute'
+    method-2: 'setBaseValue'

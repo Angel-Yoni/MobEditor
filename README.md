@@ -4,7 +4,8 @@
 - Using this plugin, you can edit mob's features and properties.
 - MobEditor is fully configurable, easy and free to use.
 
-![](https://img.shields.io/github/v/release/Angel-Yoni/MobEditor.svg)
+<!-- ![](https://img.shields.io/github/v/release/Angel-Yoni/MobEditor.svg) -->
+
 
 
 # Features

@@ -38,7 +38,7 @@
 This plugin is fully configurable. 
 You can decide which material and name each function and feature will get, by easily editing **config.yml**.
 
-# Example config.yml
+## Example config.yml
 
 ```
 # Made by TheHandsomeYoni and _ItsAngel_
@@ -52,16 +52,23 @@ mob-edit-section:
     type: 'string'
 ```
 
-# Fields
+### Fields
 These are the field used in the config.yml. 
 
 Please make sure to not mess around with the field type.
 
-### **Name**
+#### **Name**
 - The name that will be displayed when oppening the inventory.
 
-### **Material** 
+#### **Material** 
 - The material that will be used to display the item.
 
-### **Type** 
+#### **Type** 
 - Currently the 'type' field is for test purposes.
+
+
+# To - Do
+- [] Create and publish a full version this year
+- [] Provide more visual description
+- [] Add more features to the plugin
+- [] Reach 100 downloads on spigotmc

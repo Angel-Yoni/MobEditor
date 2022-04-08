@@ -7,7 +7,7 @@
 
 **Table of Contents**
 
-[TOCM]
+[TOC]
 
 # Features
 - Edit mob's nickname - 🔤

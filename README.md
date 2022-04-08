@@ -1,5 +1,5 @@
 # MobEditor
-- This plugin was made by TheHandsomeYoni with the help of _ItsAngel_
+- This plugin was made by TheHandsomeYoni with the help of \_ItsAngel\_
 - MobEditor is a Spigot plugin, which currently supports only 1.18. 
 - Using this plugin, you can edit mob's features and properties.
 - MobEditor is fully configurable, easy and free to use.

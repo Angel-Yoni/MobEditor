@@ -20,7 +20,7 @@
 - Movement speed - ⚡
 - Damage absorbsion - 🛡️
 
-## Description
+## Features - Description
 
 | Feature       |   Description |
 | ------------- | ------------- |
@@ -57,11 +57,11 @@ These are the field used in the config.yml.
 
 Please make sure to not mess around with the field type.
 
-### **name**
+### **Name**
 - The name that will be displayed when oppening the inventory.
 
 ### **Material** 
 - The material that will be used to display the item.
 
-### **type** 
+### **Type** 
 - Currently the 'type' field is for test purposes.

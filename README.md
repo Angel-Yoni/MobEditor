@@ -3,7 +3,7 @@
 - Using this plugin, you can edit mob's features and properties.
 - MobEditor is fully configurable, easy and free to use.
 
-#Features
+# Features
 - Edit mob's nickname - 🔤
 - Edit mob's armor and main item - 👕 🗡️
 - Custom items support 

@@ -5,6 +5,9 @@
 
 ![](https://img.shields.io/github/v/release/Angel-Yoni/MobEditor.svg)
 
+**Table of Contents**
+[TOCM]
+
 # Features
 - Edit mob's nickname - 🔤
 - Edit mob's armor and main item - 👕 🗡️
@@ -17,7 +20,3 @@
 - Movement speed - ⚡
 - Damage absorbsion - 🛡️
 
-
-```java
-test
-```

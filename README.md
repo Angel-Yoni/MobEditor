@@ -29,74 +29,19 @@ You can decide which material and name each function and feature will get, by ea
 ```
 # Made by TheHandsomeYoni and _ItsAngel_
 
-
 main-inventory-title: '&a&lMob Editor'
-insert-item-inventory-title: '&a&lInsert Item'
-
 
 mob-edit-section:
-  equipment-helmet:
-    name: '&aHelmet'
+  test-feature:
+    name: '&atest'
     material: DIAMOND_HELMET
-    type: 'item'
-
-  equipment-chestplate:
-    name: '&aChestplate'
-    material: DIAMOND_CHESTPLATE
-    type: 'item'
-
-  equipment-leggings:
-    name: '&aLeggings'
-    material: DIAMOND_LEGGINGS
-    type: 'item'
-
-  equipment-boots:
-    name: '&aBoots'
-    material: DIAMOND_BOOTS
-    type: 'item'
-
-  display-name:
-    name: '&aName'
-    material: PAPER
     type: 'string'
-
-  invincibility:
-    name: '&aInvincible'
-    material: TOTEM_OF_UNDYING
-    type: 'boolean'
-
-  target-player:
-    name: '&aTarget Player'
-    material: COMPASS
-    type: 'player'
-
-  AI:
-    name: '&aAI'
-    material: LEGACY_EYE_OF_ENDER
-    type: 'boolean'
-
-  attribute-generic-armor:
-    name: '&aProtection'
-    material: IRON_CHESTPLATE
-    type: 'GENERIC_ARMOR'
-
-  attribute-generic-attack-damage:
-    name: '&aDamage'
-    material: REDSTONE
-    type: 'GENERIC_ATTACK_DAMAGE'
-
-  attribute-generic-movement-speed:
-    name: '&aSpeed'
-    material: FEATHER
-    type: 'GENERIC_MOVEMENT_SPEED'
-
-  attribute-generic-max-health:
-    name: '&aHealth'
-    material: ENCHANTED_GOLDEN_APPLE
-    type: 'GENERIC_MAX_HEALTH'
 ```
 
 # Fields
+These are the field used in the config.yml. 
+
+Please make sure to not mess around with the field type.
 
 ### **name** - The name that will be displayed when oppening the inventory.
 

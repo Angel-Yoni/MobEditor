@@ -81,7 +81,8 @@ Please make sure to not mess around with the field type.
 If you encounter any problem with the plugin, need help, or have suggestions, feel free to cantact us:
 ## Discord
 TheHandsomeYoni#0523
-_Angel_#8769
+
+\_Angel\_#8769
 
 ## Gmail
 thehandsomeyoni@gmail.com

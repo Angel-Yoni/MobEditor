@@ -23,7 +23,7 @@
 This plugin is fully configurable. 
 You can decide which material and name each function and feature will get, by easily editing **config.yml**.
 
-***Example config.yml***
+# Example config.yml
 
 ```
 # Made by TheHandsomeYoni and _ItsAngel_
@@ -94,3 +94,9 @@ mob-edit-section:
     material: ENCHANTED_GOLDEN_APPLE
     type: 'GENERIC_MAX_HEALTH'
 ```
+
+***Fields***
+
+**name** - The name that will be displayed when oppening the inventory.
+**Material** - The material that will be used to display the item.
+**type** - Currently the 'type' field is for test purposes.

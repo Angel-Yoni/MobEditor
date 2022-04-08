@@ -49,6 +49,9 @@ mob-edit-section:
   test-feature:
     name: '&atest'
     material: DIAMOND_HELMET
+    lore:
+      - "This is the first line"
+      - "This is a cool line"
     type: 'string'
 ```
 

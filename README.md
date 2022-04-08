@@ -68,7 +68,7 @@ Please make sure to not mess around with the field type.
 
 
 # To - Do
-- [] Create and publish a full version this year
+- [x] Create and publish a full version this year
 - [] Provide more visual description
 - [] Add more features to the plugin
 - [] Reach 100 downloads on spigotmc

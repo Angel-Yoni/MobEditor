@@ -20,6 +20,20 @@
 - Movement speed - ⚡
 - Damage absorbsion - 🛡️
 
+# Features - Description
+
+| Feature       |   Description |
+| ------------- | ------------- |
+| Nickname      | Changes the displayed name of the mob |
+| Armor & Main item  | Changes the armor and the item in the main hand of the mob  |
+| Invincibility  | Disables the mob's ability to get damage, or targetted by hostiles  |
+| Target a player  | Forces the mob to target and attack a player  |
+| AI  | Controls the thinking of the mob, the mob won't move or run away when being hit  |
+| Max Health  | Changes the max health of the mob, can be above 20  |
+| Attack Damage  | Changes the damage given by the mob  |
+| Movement speed  | Changes the speed of the mob when moving  |
+| Damage absorbsion  | Changes the protection / absobsion of the mob when being hit  |
+
 # Configuration
 This plugin is fully configurable. 
 You can decide which material and name each function and feature will get, by easily editing **config.yml**.

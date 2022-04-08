@@ -68,7 +68,7 @@ Please make sure to not mess around with the field type.
  Currently the 'type' field is for test purposes.
 
 
-# To - Do
+# To Do
 - [ ] Create and publish a full version this year
 - [ ] Provide more visual description
 - [ ] Add more features to the plugin

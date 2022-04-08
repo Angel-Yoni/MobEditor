@@ -95,8 +95,10 @@ mob-edit-section:
     type: 'GENERIC_MAX_HEALTH'
 ```
 
-***Fields***
+# Fields
 
-**name** - The name that will be displayed when oppening the inventory.
-**Material** - The material that will be used to display the item.
-**type** - Currently the 'type' field is for test purposes.
+###**name** - The name that will be displayed when oppening the inventory.
+
+###**Material** - The material that will be used to display the item.
+
+###**type** - Currently the 'type' field is for test purposes.

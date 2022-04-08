@@ -1,3 +1,5 @@
 # MobEditor
 
-This plugin was made by TheHandsomeYoni and _ItsAngel_
+
+
+# General Info

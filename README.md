@@ -72,3 +72,7 @@ Please make sure to not mess around with the field type.
 - [ ] Provide more visual description
 - [ ] Add more features to the plugin
 - [ ] Reach 100 downloads on spigotmc
+
+# Contact
+If you encounter any problem with the plugin, need help, or have suggestions, feel free to cantact us:
+## Discord

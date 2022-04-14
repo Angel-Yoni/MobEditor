@@ -74,10 +74,11 @@ Please make sure to not mess around with the field type.
 
 
 # To Do
-- [ ] Create and publish a full version this year
+- [ ] Create and publish a full version this year (for free)
 - [ ] Provide more visual description
 - [ ] Add more features to the plugin
 - [ ] Reach 100 downloads on spigotmc
+- [ ] Create a and publish a premium version of the plugin (for sale)
 
 # Contact
 If you encounter any problem with the plugin, need help, or have suggestions, feel free to cantact us:
